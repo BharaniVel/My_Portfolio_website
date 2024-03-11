@@ -12,77 +12,76 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Jayabharanivelu V M",
+  title: "Hi all, I'm JayaBharanivelu",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "I'm a passionate Java developer with expertise in Java development, backend development, and machine learning. I have a strong foundation in Full Stack web development and hands-on experience with Java technologies. My skills include building robust and scalable web applications using Java, as well as proficiency in backend development. Additionally, I possess a decent amount of knowledge in basic frontend development, working with HTML, CSS, and utilizing Figma for designing.",
+  resumeLink: "https://amaranth-sabrina-53.tiiny.site",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "Bharani2509",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "bharanivelu.offl@gmail.com",
+  linkedin: "https://linkedin.com/in/jayabharanivelu",
+  github: "https://github.com/Bharani2509",
+  instagram: "https://www.instagram.com/bharani_vel",
+  // leetode: "https://leetcode.com/user7561cr/",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY JAVA DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
-      title: "Full Stack Development",
+      title: "Java Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building responsive logical codes at the backend"),
       ],
       softwareSkills: [
+        {
+          skillName: "Java",
+          iconifyTag: "logos:java",
+        },
         {
           skillName: "Python",
           iconifyTag: "logos:python",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "HTML",
+          iconifyTag: "logos:html-5",
         },
         {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
+          skillName: "CSS",
+          iconifyTag: "logos:css-3", 
         },
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
-        },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "Figma",
+          iconifyTag: "logos:figma",
         },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
         {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
+          skillName: "PHP",
+          iconifyTag: "logos:php",
         },
+        {
+          skillName: "MySQL",
+          iconifyTag: "logos:mysql", // Update this line with the correct Iconify tag for MySQL
+        },
+        // {
+        //   skillName: "Microsoft Power Apps",
+        //   iconifyTag: "simple-icons:microsoftpowerapps", 
+        // },
       ],
     },
   ],
@@ -90,62 +89,73 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Java", //Insert stack or technology you have experience in
+    progressPercentage: "80", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Backend",
-    progressPercentage: "90",
+    Stack: "Backend/Database Connectivity/Database/Request",
+    progressPercentage: "80",
   },
   {
     Stack: "Programming",
     progressPercentage: "95",
   },
+  {
+    Stack: "FrontEnd", //Insert stack or technology you have experience in
+    progressPercentage: "70", //Insert relative proficiency in percentage
+  },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "Rajalakshmi Engineering College",
+    subHeader: "Bachelor of Education in Computer Science",
+    duration: "July 2020 - Present",
     desc: "",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
+    CGPA: "8.34",
+    Marks: ""
+    // descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Prince Matriculation Higher Secondary School",
+    subHeader: "HSC Computer Science",
+    duration: "June 2019 - March 2020",
+    desc: "",
+    CGPA:"",
+    Marks: "78.82%",
+    // grade: "Grade A",
+    // descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Prince Matriculation Higher Secondary School",
+    subHeader: "SSLC",
+    duration: "June 2017 - March 2018",
+    desc: "",
+    CGPA:"",
+    Marks: "92.2%",
+    // grade: "Grade A",
+    // descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Frontend Developer",
+    company: "Ardens Buisness Solution",
+    companyLogo: "/img/icons/common/ABS.jpeg",
+    date: "Dec 2021 - Jan 20222",
+    desc: "As a Frontend Developer at Ardens Business Solutions, a Human Resource Management Software (HRMS) company, I gained valuable insights into the intricacies of designing and developing HRMS software solutions. My focus was on crafting robust and user-friendly frontend applications using various JavaScript frameworks, including React and Angular. \n During my tenure, I actively participated in the development of a website hosted locally, showcasing my proficiency in frontend technologies. One notable achievement was the creation of a dynamic feature within the website. This feature allowed users to input a student's name and designation, triggering the automatic generation of an internship letter.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    role: "Data Analyst",
+    company: "Zigma  Infotech Pvt Ltd.",
+    companyLogo: "/img/icons/common/Zigma.avif",
+    date: "June 2021 - July 2021",
+    desc: "As a Data Analyst Intern at Zigma, I played a pivotal role in extracting meaningful insights from complex datasets, contributing to data-driven decision-making processes. I gained hands-on experience in analyzing and interpreting data, employing statistical methods, and utilizing tools such as Google Collab and Anaconda Virtual Enviroinment. During my internship, I collaborated with cross-functional teams to identify key trends, patterns, and areas for improvement, providing valuable insights for business strategies. I actively participated in data cleaning, preprocessing, and visualization, ensuring data integrity and clarity in reporting",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
 ];
 
@@ -153,61 +163,43 @@ export const projects: ProjectType[] = [
   {
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
+    github: "https://github.com/Bharani2509/developer-portfolio",
     link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Used Car Price Predictor using  Machine Learning",
+    desc: "In the Used Car Price Predictor project, I developed a machine learning model to predict the prices of used cars based on various features. The goal was to provide users with an accurate estimate of a car's market value, leveraging historical data to make informed predictions. The dataset used for training and testing the model was sourced from Quikr, a popular online marketplace for buying and selling used goods, including automobiles.",
+    github: "https://github.com/Bharani2509/developer-portfolio",
+    // link: "https://gibeo.io/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Gas Leakage and monitoring system using IoT",
+    desc: "The Gas Leakage and Monitoring System is an innovative application of Internet of Things (IoT) technology designed to enhance safety and prevent potential hazards associated with gas leaks. This system integrates smart sensors, communication devices, and a centralized monitoring platform to enable real-time detection and response to gas leaks in various environments.",
+    github: "https://github.com/Bharani2509/developer-portfolio",
+    // link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "REC Telegram Bot",
+    desc: "The Telegram Bot designed for our college is a user-friendly and secure solution that simplifies the process of accessing academic information. By seamlessly integrating with Telegram, students can effortlessly retrieve their marks and attendance reports by entering their roll numbers. The bot employs robust user authentication to ensure data security, and its backend fetches real-time data from the college's academic database, presenting information in a clear and comprehensible format. With an interactive interface, the bot not only provides timely notifications for important announcements but also allows students to offer feedback, contributing to continuous improvement. This streamlined approach enhances accessibility, transparency, and overall user experience within the college community.",
+    // link: "https://hooliganculture.com/",
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-  },
-  {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
-    feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
-  },
-];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Jayabharanivelu V M",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Jayabharanivelu V M",
+  image: "",
+  url: "",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Bharani",
+    "Jayabharanivelu",
+    "@bharani_vel",
+    "Bharani2509",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Bharani Portfolio ",
+    "Bharanivel Portfolio",
   ],
 };
