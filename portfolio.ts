@@ -15,8 +15,8 @@ export const greetings: GreetingsType = {
   name: "Jayabharanivelu V M",
   title: "Hi all, I'm JayaBharanivelu",
   description:
-    "I'm a passionate Java developer with expertise in Java development, backend development, and machine learning. I have a strong foundation in Full Stack web development and hands-on experience with Java technologies. My skills include building robust and scalable web applications using Java, as well as proficiency in backend development. Additionally, I possess a decent amount of knowledge in basic frontend development, working with HTML, CSS, and utilizing Figma for designing.",
-  resumeLink: "https://amaranth-sabrina-53.tiiny.site",
+    "I'm a passionate Flutter developer with expertise in Java development, backend development, and machine learning. I have a strong foundation in Full Stack web development and hands-on experience with Java technologies. My skills include building robust and scalable web applications using Java, as well as proficiency in backend development. Additionally, I possess a decent amount of knowledge in basic frontend development, working with HTML, CSS, and utilizing Figma for designing.",
+  resumeLink: "https://crimson-adi-73.tiiny.site/",
 };
 
 export const openSource = {

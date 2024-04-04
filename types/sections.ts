@@ -57,6 +57,8 @@ export type EducationType = {
   duration: string;
   desc: string;
   grade?: string;
+  CGPA: String;
+  Marks: String;
   descBullets?: string[];
 };
 
